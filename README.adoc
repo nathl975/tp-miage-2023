@@ -10,10 +10,14 @@ Commentaires éventuels des étudiants : #XXXXXX#
 ## Pré-requis 
 
 * Disposer d'un PC d'au moins 8 Gio de RAM avec 20 Gio de disque disponible ;
+* Disposer d'une connexion internet hors université pendant le TP (le réseau de l'université semble bloquer un certain nombre de choses). En cas d'urgence, je peux fournir de la data.
 * Disposer d'une version recente de VirtualBox ;
 * Disposer d'un compte Github par personne (ou un pour deux personnes si vous êtes en binôme) et avoir https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token[créé un access token] avec le droit `repo`;
-* Si pas déjà fait, activer les fonctions de virtualisation CPU dans votre BIOS/UEFI (option `AMD-V` ou `Intel VT` en général) sinon votre VM sera extrêmement lente et inutilisable.
-* Télécharger, décompresser et *tester* l'image VirtualBox de l'environnement de développement https://public.florat.net/cours_miage/vm-tp-miage.zip[ici] (à faire *avant le TP*). Le login/mot de passe est : `tp`/`tp`.
+* Disposer d'un IDE (de préférence https://www.jetbrains.com/idea/download[Intellij IDEA CE], Eclipse ou VSCode) supportant le Java et Maven.
+* Disposer d'un client de test REST (https://insomnia.rest/[Insomnia] ou https://www.postman.com/product/rest-client/[Postman] conseillés).
+* Disposer d'un explorer de  base de donnée (https://dbeaver.io/[DBeaver] conseillé).
+   
+NOTE: Si vous désirez éviter d'installer ces outils, vous pouvez également télécharger, décompresser et *tester* cette https://public.florat.net/cours_miage/vm-tp-miage.zip[image VirtualBox] *avant le TP*. Le login/mot de passe est : `tp`/`tp`. Si pas déjà fait, activer les fonctions de virtualisation CPU dans votre BIOS/UEFI (option `AMD-V` ou `Intel VT` en général) sinon votre VM sera extrêmement lente et inutilisable.
 
 ## Déroulement du TP
 
