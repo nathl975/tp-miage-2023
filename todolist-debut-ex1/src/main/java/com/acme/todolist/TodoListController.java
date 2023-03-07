@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Le controlleur Spring MVC qui expose les endpoints REST
+ * Le controller Spring MVC qui expose les endpoints REST
  * 
  * @author bflorat
  *
@@ -48,8 +48,8 @@ public class TodoListController {
 	}
 
 	/**
-	 * RG 1 : si l'item a plus de 24h, ajouter dans le contenu une note "[LATE!]"
-	 * 
+	 * RG 1 : si l'item a plus de 24 h, ajouter dans le contenu une note "[LATE!]"
+	 *
 	 * @return liste des items
 	 */
 	private String finalContent(TodoItem item) {
