@@ -111,8 +111,11 @@ L'architecture hexagonale, également connue sous le nom de "ports and adapters"
 
 Les grands principes de l'architecture hexagonale comprennent :
 1. La séparation de l'application en trois couches principales : la couche domaine, la couche application et la couche infrastructure.
+
 2. L'utilisation d'interfaces pour connecter les différentes couches de l'application, afin de rendre le code plus modulaire et facilement testable.
+
 3. La définition de ports (entrées/sorties) pour communiquer avec l'application à travers des interfaces.
+
 4. L'utilisation d'adaptateurs pour connecter les ports à l'infrastructure de l'application, ce qui permet une meilleure flexibilité et une plus grande facilité de remplacement.
 
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
