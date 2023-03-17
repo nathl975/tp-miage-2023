@@ -3,9 +3,8 @@
 ## Nom du(des) étudiant(e)(s) de ce monôme/binôme 
 WARNING: NE PAS OUBLIER DE MENTIONNER LES DEUX NOMS SI VOUS ETES EN BINOME!
 
-#LETOURNEL#
+#Nathan LETOURNEL#
 
-Commentaires éventuels des étudiants : #XXXXXX#
 
 ## Pré-requis 
 
@@ -133,7 +132,9 @@ _Temps estimé : 20 mins_
 
 * Implémenter (en junit) des TU sur la règle de gestion qui consiste à afficher `[LATE!]` dans la description d'un item en retard de plus de 24h.
 
-*Quels types de tests devra-t-on écrire pour les adapteurs ?* 
+*Quels types de tests devra-t-on écrire pour les adapters ?*
+
+On va devoir réaliser des tests d'intégration.
 
 *S'il vous reste du temps, écrire quelques uns de ces types de test.*
 

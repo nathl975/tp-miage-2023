@@ -22,7 +22,4 @@ public class AddTodoItemService implements AddTodoItem {
 	public void addTodoItem(TodoItem item) {
 		this.updateTodoItem.storeNewTodoItem(item);
 	}
-
-	//A compléter	
-
 }

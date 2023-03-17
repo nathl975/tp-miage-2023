@@ -54,7 +54,7 @@ public class TodoItem {
 	}
 
 	/**
-	 * RG 1 : si l'item a plus de 24h, ajouter dans le contenu une note "[LATE!]"
+	 * RG 1 : si l'item a plus de 24 h, ajouter dans le contenu une note "[LATE!]"
 	 * 
 	 * @return liste des items
 	 */
@@ -80,11 +80,8 @@ public class TodoItem {
 			return false;
 		TodoItem other = (TodoItem) obj;
 		if (id == null) {
-			if (other.id != null)
-				return false;
-		} else if (!id.equals(other.id))
-			return false;
-		return true;
+			return other.id == null;
+		} else return id.equals(other.id);
 	}
 
 }
