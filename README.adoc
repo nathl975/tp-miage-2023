@@ -107,6 +107,18 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
 
+L'architecture hexagonale, également connue sous le nom de "ports and adapters", est un modèle d'architecture logicielle qui vise à créer des applications indépendantes de toute infrastructure ou technologie spécifique.
+
+Les grands principes de l'architecture hexagonale comprennent :
+
+La séparation de l'application en trois couches principales : la couche domaine, la couche application et la couche infrastructure.
+
+L'utilisation d'interfaces pour connecter les différentes couches de l'application, afin de rendre le code plus modulaire et facilement testable.
+
+La définition de ports (entrées/sorties) pour communiquer avec l'application à travers des interfaces.
+
+L'utilisation d'adaptateurs pour connecter les ports à l'infrastructure de l'application, ce qui permet une meilleure flexibilité et une plus grande facilité de remplacement.
+
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
 
 * prend un `TodoItem` au format JSON dans le body (voir exemple de contenu plus haut);
