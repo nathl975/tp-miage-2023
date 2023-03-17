@@ -14,7 +14,7 @@ import com.acme.todolist.domain.TodoItem;
 @Component
 public class GetTodoItemsService implements GetTodoItems {
 
-	private LoadTodoItem loadTodoItem;
+	private final LoadTodoItem loadTodoItem;
 
 	@Inject
 	public GetTodoItemsService(LoadTodoItem loadTodoItem) {
