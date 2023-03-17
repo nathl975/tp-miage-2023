@@ -110,6 +110,7 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
 L'architecture hexagonale, également connue sous le nom de "ports and adapters", est un modèle d'architecture logicielle qui vise à créer des applications indépendantes de toute infrastructure ou technologie spécifique.
 
 Les grands principes de l'architecture hexagonale comprennent :
+
 1. La séparation de l'application en trois couches principales : la couche domaine, la couche application et la couche infrastructure.
 
 2. L'utilisation d'interfaces pour connecter les différentes couches de l'application, afin de rendre le code plus modulaire et facilement testable.
