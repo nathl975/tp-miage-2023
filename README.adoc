@@ -48,6 +48,11 @@ Les couches n dépendent de la couche n+1. Cela peut poser problème si on souha
 le code métier se trouve dans le contrôleur, c'est lui qui gère l'accès aux données de l'application par les routes.
 
 *Cette règle est-elle facilement testable par un test unitaire ?*
+Pour tester unitairement cette règle, il faut tout d'abord s'assurer de plusieurs choses :
+
+1. tout d'abord que la fonctions isLate est testée et renvoie la date du jour
+2. s'assurer que la date entrée est bien supérieure à 24h de la date du jour
+
 
 * Lancer une base PostgreSQL en Docker dans un terminal (on lance ici la base en mode interactif pour visualiser son activité. Pour la lancer en tâche de fond, remplacer les options `it` par `d` comme 'daemon'):
 ```bash
@@ -134,7 +139,7 @@ _Temps estimé : 20 mins_
 
 *Quels types de tests devra-t-on écrire pour les adapters ?*
 
-On va devoir réaliser des tests d'intégration.
+On va devoir réaliser des tests d'intégration. Ils consistent à vérifier les interactions entre les composants là où les tests unitaires vont tester chaque composant individuellement.
 
 *S'il vous reste du temps, écrire quelques uns de ces types de test.*
 
